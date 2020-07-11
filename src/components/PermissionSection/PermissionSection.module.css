@@ -1,0 +1,29 @@
+.PermissionSection {
+  padding: 10px 10px;
+  background: #a3acb1;
+  max-width: 800px;
+  border: 2px solid black;
+  margin: 0 auto;
+  min-height: 50vh;
+}
+
+.Button {
+  margin: 20px 50px;
+  float: right;
+}
+
+@media screen and (max-width: 600px) {
+  .PermissionSection {
+    min-height: 65vh;
+  }
+
+  .Button {
+    margin-right: 27px;
+  }
+}
+
+@media screen and (max-width: 380px) {
+  .Button {
+    margin-right: 0;
+  }
+}

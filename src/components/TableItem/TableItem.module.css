@@ -1,0 +1,42 @@
+.TableItem {
+  display: flex;
+  justify-content: space-between;
+  margin: 15px 0 15px 50px;
+  box-sizing: border-box;
+}
+
+.actions {
+  min-width: 350px;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: space-between;
+  margin-right: 55px;
+  margin-left: 55px;
+}
+
+.actionsAll {
+  min-width: 356px;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: space-between;
+  margin-right: 50px;
+}
+
+@media screen and (max-width: 600px) {
+  .TableItem {
+    flex-direction: column;
+    margin: 15px 0;
+    padding: 0 30px;
+  }
+
+  .actions, .actionsAll {
+    min-width: 0;
+    margin: 0;
+  }
+}
+
+@media screen and (max-width: 380px) {
+  .TableItem {
+    padding: 0;
+  }
+}
