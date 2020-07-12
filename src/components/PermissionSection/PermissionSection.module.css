@@ -2,6 +2,7 @@
   padding: 10px 10px;
   background: #a3acb1;
   max-width: 800px;
+  margin: 0 auto;
   border: 2px solid black;
   min-height: 50vh;
 }
