@@ -3,27 +3,32 @@
   background: #a3acb1;
   max-width: 800px;
   border: 2px solid black;
-  margin: 0 auto;
   min-height: 50vh;
 }
 
 .Button {
-  margin: 20px 50px;
+  margin: 20px 30px 20px 0;
   float: right;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 510px) {
   .PermissionSection {
-    min-height: 65vh;
+    min-height: 68vh;
   }
 
   .Button {
-    margin-right: 27px;
+    margin: 20px 0 20px 27px;
+    float: none;
   }
 }
 
-@media screen and (max-width: 380px) {
+@media screen and (max-width: 438px) {
+  .PermissionSection {
+    padding: 5px;
+  }
+
   .Button {
-    margin-right: 0;
+    margin: 20px 0;
+    float: none;
   }
 }

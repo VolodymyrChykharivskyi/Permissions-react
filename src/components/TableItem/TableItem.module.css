@@ -1,42 +1,66 @@
 .TableItem {
   display: flex;
   justify-content: space-between;
-  margin: 15px 0 15px 50px;
+  margin: 15px 30px;
   box-sizing: border-box;
 }
 
-.actions {
-  min-width: 350px;
-  box-sizing: border-box;
-  display: flex;
-  justify-content: space-between;
-  margin-right: 55px;
-  margin-left: 55px;
+.actions span {
+  margin-right: 75px;
 }
 
-.actionsAll {
-  min-width: 356px;
-  box-sizing: border-box;
-  display: flex;
-  justify-content: space-between;
+.actions span:nth-child(2) {
+  margin-right: 83px;
+}
+
+.actions span:last-child {
+  margin-right: 3px;
+}
+
+.actionsAll span {
   margin-right: 50px;
 }
 
-@media screen and (max-width: 600px) {
+.actionsAll span:last-child {
+  margin: 0;
+}
+
+@media screen and (max-width: 510px) {
   .TableItem {
     flex-direction: column;
+  }
+}
+
+@media screen and (max-width: 438px) {
+  .TableItem {
     margin: 15px 0;
-    padding: 0 30px;
+  }
+}
+
+@media screen and (max-width: 370px) {
+  .TableItem {
+    margin: 15px 0;
   }
 
-  .actions, .actionsAll {
-    min-width: 0;
+  .actionsAll span {
+    margin-right: 20px;
+  }
+
+  .actionsAll span:last-child {
     margin: 0;
   }
-}
 
-@media screen and (max-width: 380px) {
-  .TableItem {
-    padding: 0;
+  .actions span {
+    margin-right: 48px;
+  }
+
+  .actions span:nth-child(2) {
+    margin-right: 55px;
+  }
+
+  .actions span:last-child {
+    margin-right: 0;
   }
 }
+
+
